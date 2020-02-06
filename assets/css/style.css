@@ -13,6 +13,10 @@ h1 {
     background: teal;
     width: 20%
 }
+h2 {
+    background: #4AAAA5;
+    height: 40px;
+}
 
 section {
     width: 60%;
@@ -52,10 +56,12 @@ input[type=sumbit]:hover  {
 }
 .container  {
     border-radius: 5px;
-    background-color: aqua;
+    background-color: #E2FC75;
     padding: 20px;
     width:  70vw;
     margin-left: 10%;
+    height: 100vh;
+    background: transparent;
 }
 .footer {
     position: fixed;
@@ -80,3 +86,8 @@ input[type=sumbit]:hover  {
 ul {
     list-style: none;
 }
+@media only screen and (max-width: 767px) {
+    .about_me {
+      background-color: purple;
+    }
+  }
